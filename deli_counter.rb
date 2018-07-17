@@ -1,5 +1,5 @@
 def line(array)
-  line_number = array.counter
+  line_number = array.count
   line_list = []
   x = 1
 
