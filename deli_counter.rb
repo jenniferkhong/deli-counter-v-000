@@ -22,7 +22,7 @@ def take_a_number(array, name)
   elsif line_number > 0
     array << name
     x = array.count
-    puts "Welcome, #{name}. You are currently #{x} in line."
+    puts "Welcome, #{name}. You are number #{x} in line."
   end
 end
 
@@ -31,7 +31,7 @@ def now_serving(array)
   if line_number == 0
     puts "There is nobody waiting to be served!"
   elsif line_number > 0
-    puts "Currently serving #{array[0]}"
+    puts "Currently serving #{array[0]}."
     array.shift
   end
 end
