@@ -15,4 +15,13 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  
+  line_number = array.counter
+  if line_number == 0
+    array << name
+    puts "Welcome, #{name}. You are number 1 in line."
+  elsif line_number > 0
+    array << name
+    x = array.coutn
+    puts "Welcome, #{name}. You are currently #{x} in line."
+  end
+end
